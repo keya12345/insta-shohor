@@ -243,9 +243,16 @@ img {
 #reported {
   display: none;
 }
+.q-part {
+  color: brown;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
 
 .question {
   color: blue;
+  margin-top: 15px;
 }
 
 @media only screen and (max-width: 992px) {
