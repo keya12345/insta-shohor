@@ -19,7 +19,7 @@ const isLiked = (id) => {
 
 
 const reportPost = (id) => {
-  console.log(id)
+  
     reportedPostsId.push(id);
     const remainingPosts = posts.filter((post) => !reportedPostsId.includes(post.id));
     showPosts(remainingPosts);
@@ -51,7 +51,7 @@ const switchTab = (id) => {
 
 const createPost = (post) => {
 
-  //console.log(post)
+  
 
   const div = document.createElement( "article" );
 
